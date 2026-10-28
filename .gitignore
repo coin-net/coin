@@ -1,0 +1,24 @@
+# Build directories
+/build/
+/build-*/
+/gui/build/
+/gui/build-*/
+/dist/
+/gui/dist/
+
+# CMake-generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+
+# Editor files
+*.swp
+*.swo
+*~
+.DS_Store

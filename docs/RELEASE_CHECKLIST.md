@@ -1,0 +1,68 @@
+- [ ] Security audit
+- [ ] Code audit
+- [ ] Ledger integration
+  - [ ] Implemented in Coin codebase (if needed)
+  - [ ] Ledger app integration coded by Ledger
+  - [ ] Ledger Coin app update available
+- [ ] Trezor integration
+  - [ ] Implemented in Coin codebase (if needed)
+  - [ ] Trezor app integration coded by Trezor
+  - [ ] Trezor firmware update available (if needed)
+- [ ] Fork height set
+  - [ ] Coin-announce mailer notice
+  - [ ] Twitter announcement
+  - [ ] Reddit announcement
+  - [ ] Getcoin.org announcement
+- [ ] Notify wallets
+  - [ ] MyCoin
+  - [ ] Coinomi
+  - [ ] Exa Wallet
+  - [ ] Wookey Wallet
+  - [ ] X Wallet
+  - [ ] Guarda
+  - [ ] ZelCore
+  - [ ] Cake Wallet
+  - [ ] Monerujo
+  - [ ] Edge Wallet
+  - [ ] Exodus
+  - [ ] COINWallet
+- [ ] Notify exchanges
+  - [ ] https://web.getcoin.org/community/merchants/#exchanges
+- [ ] Notify 3rd party payment processors
+  - [ ] https://web.getcoin.org/community/merchants/#payment-gateways
+- [ ] Notify mining pools
+  - [ ] https://miningpoolstats.stream/coin
+- [ ] Release tagged
+  - [ ] Update src/version.cpp.in with new version AND new name (if necessary)
+  - [ ] Update Gitian YML files in contrib/gitian/ to the new version number
+  - [ ] Update README.md with new fork table entry (or at least update the Recommended Coin version)
+  - [ ] Update contrib/gitian/README.md so that the instructions reflect the current version
+  - [ ] Update src/checkpoints/checkpoints.cpp with a recent hardcoded checkpoint
+  - [ ] Update src/blocks/checkpoints.dat with ./coin-blockchain-export --output-file checkpoints.dat --block-stop <recent block height> --blocksdat
+  - [ ] Update expected_block_hashes_hash in src/cryptonote_core/blockchain.cpp with checkpoints.dat sha256 hash
+- [ ] Testnet forked
+- [ ] Testnet testing/verification
+  - [ ] Ledger
+  - [ ] Trezor
+  - [ ] Release-specific testing
+  - [ ] RPC testing/update RPC documentation
+- [ ] CLI reproducible builds validated
+- [ ] CLI released
+  - [ ] https://web.getcoin.org/downloads/ updated
+  - [ ] Update hashes.txt on website
+  - [ ] Update downloads.yml on website
+  - [ ] Update auto-update DNS records
+  - [ ] Update redirects on downloads box
+  - [ ] Update seed nodes
+- [ ] GUI released
+  - [ ] https://web.getcoin.org/downloads/ updated
+  - [ ] Update hashes.txt on website
+  - [ ] Update hashes.txt.sig on website
+  - [ ] Update downloads.yml on website
+  - [ ] Update auto-update DNS records
+  - [ ] Update redirects on downloads box
+- [ ] Release Announcements
+  - [ ] Coin-announce mailer notice
+  - [ ] Twitter announcement
+  - [ ] Reddit announcement
+  - [ ] Getcoin.org announcement

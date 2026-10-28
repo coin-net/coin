@@ -1,0 +1,5 @@
+--- a/boost/thread/pthread/thread_data.hpp
++++ b/boost/thread/pthread/thread_data.hpp
+@@ -60 +60 @@
+-#if PTHREAD_STACK_MIN > 0
++#ifdef PTHREAD_STACK_MIN
